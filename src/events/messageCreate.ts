@@ -12,7 +12,7 @@ export default new VoidEvent({
 
     const input = message.content.replace('!', '').slice(client.user!.id.length + 3);
     
-    const msg = await message.reply('> Void está pensando...');
+    const msg = await message.reply('> Pensando...');
     const response = await client.void.prompt(input);
 
     console.log(response.text);

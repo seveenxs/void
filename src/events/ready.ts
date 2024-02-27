@@ -10,6 +10,6 @@ export default new VoidEvent({
     const client = VoidClient.getInstance();
     await client.void.storeManager.registerDocuments();
     
-    console.log('DOCS REGISTRADOS');
+    console.log('✅ Documentos registrados');
   }
 })
